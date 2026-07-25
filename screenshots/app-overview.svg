@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <rect x="40" y="40" width="1120" height="620" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="80" y="95" width="220" height="42" rx="10" fill="#2563eb"/>
+  <text x="110" y="124" fill="#ffffff" font-family="Arial" font-size="24" font-weight="700">Todo App</text>
+  <rect x="80" y="180" width="1040" height="80" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="110" y="228" fill="#1e3a8a" font-family="Arial" font-size="24">React + Vite + TypeScript Todo List</text>
+  <rect x="80" y="310" width="1040" height="240" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="120" y="350" width="760" height="56" rx="10" fill="#f8fafc" stroke="#dbeafe"/>
+  <circle cx="150" cy="378" r="10" fill="#60a5fa"/>
+  <text x="176" y="385" fill="#334155" font-family="Arial" font-size="24">Örnek todo öğesi</text>
+  <rect x="120" y="430" width="760" height="56" rx="10" fill="#f8fafc" stroke="#dbeafe"/>
+  <circle cx="150" cy="458" r="10" fill="#34d399"/>
+  <text x="176" y="465" fill="#334155" font-family="Arial" font-size="24">Tamamlanan görev</text>
+  <rect x="920" y="350" width="160" height="120" rx="14" fill="#2563eb"/>
+  <text x="958" y="418" fill="#ffffff" font-family="Arial" font-size="22" font-weight="700">Live</text>
+</svg>
