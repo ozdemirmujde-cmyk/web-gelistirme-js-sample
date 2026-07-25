@@ -1,28 +1,27 @@
-import { useMemo, useState } from 'react';
 import './App.css'
-import { TodoListPage } from './pages/todolist';
-import { TodoListPage as TLP } from './pagesWithTailwind/todolist';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import CatalogPage from './pages/catalog'
+import ProductDetail from './pages/productDetail'
+import { CatalogProvider } from './context/CatalogContext'
 
 function App() {
-  const [isNewViewMode, setIsNewViewMode] = useState<boolean>(false);
-
-
-  const ButtonJSX = useMemo(() => {
-    return <>
-      <div>
-        <button onClick={() => setIsNewViewMode(!isNewViewMode)}>
-          Değiştir
-        </button>
-      </div>
-    </>
-  }, [isNewViewMode]);
-
-
-  return <>
-    {ButtonJSX}
-    {isNewViewMode ? <TLP /> : <TodoListPage />}
-  </>
-
+  return (
+    <CatalogProvider>
+      <BrowserRouter>
+        <header className="app-header">
+          <nav>
+            <Link to="/">Mini Katalog</Link>
+          </nav>
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<CatalogPage />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
+    </CatalogProvider>
+  )
 }
 
 export default App

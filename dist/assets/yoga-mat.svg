@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#d9f99d" />
+    </linearGradient>
+    <linearGradient id="mat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg3)" />
+  <rect x="120" y="120" width="360" height="180" rx="35" fill="url(#mat)" />
+  <line x1="170" y1="150" x2="430" y2="150" stroke="#ecfccb" stroke-width="10" />
+  <line x1="170" y1="190" x2="430" y2="190" stroke="#ecfccb" stroke-width="10" />
+  <line x1="170" y1="230" x2="430" y2="230" stroke="#ecfccb" stroke-width="10" />
+  <path d="M220 290 C240 295 360 295 380 290" stroke="#10b981" stroke-width="16" fill="none" stroke-linecap="round" />
+  <text x="50%" y="88%" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="#14532d">Yoga Matı</text>
+</svg>

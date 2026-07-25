@@ -42,3 +42,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-header {
+  background: #111827;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+.app-header a { color: #fff; text-decoration: none; font-weight: 600 }
+
+main { padding: 1rem }

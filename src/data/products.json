@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Koşu Ayakkabısı",
+    "price": 499.99,
+    "image": "/assets/shoe.svg",
+    "description": "Hafif, nefes alabilen koşu ayakkabısı — günlük antrenmanlar için uygundur."
+  },
+  {
+    "id": "2",
+    "title": "Dumbbell Set (2x5kg)",
+    "price": 299.0,
+    "image": "/assets/dumbbell.svg",
+    "description": "Evde kullanım için kaliteli dökme demir dumbbell seti."
+  },
+  {
+    "id": "3",
+    "title": "Yoga Matı",
+    "price": 129.5,
+    "image": "/assets/yoga-mat.svg",
+    "description": "Kaymaz yüzeyli, 6mm kalınlığında taşınabilir yoga matı."
+  },
+  {
+    "id": "4",
+    "title": "Basketbol Topu",
+    "price": 219.99,
+    "image": "/assets/basketball.svg",
+    "description": "Dış mekan ve salon kullanımı için dayanıklı basketbol topu."
+  },
+  {
+    "id": "5",
+    "title": "Direnç Bandı (Set)",
+    "price": 79.0,
+    "image": "/assets/resistance-band.svg",
+    "description": "Farklı direnç seviyelerinde 3 bantlı set, taşınabilir antrenman için ideal."
+  },
+  {
+    "id": "6",
+    "title": "Bisiklet Kaskı",
+    "price": 349.99,
+    "image": "/assets/bike-helmet.svg",
+    "description": "Ayarlanabilir kayışlı, hafif ve sertifikalı bisiklet kaskı."
+  }
+]
