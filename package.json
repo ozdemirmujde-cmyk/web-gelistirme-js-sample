@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "screenshot:catalog": "node tools/screenshot.cjs http://localhost:5173/ screenshots/catalog.png --full",
+    "screenshot:product": "node tools/screenshot.cjs http://localhost:5173/product/1 screenshots/product-1.png --full"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",

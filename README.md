@@ -68,8 +68,28 @@ npm run build
 - `src/data/products.json`: Spor ekipmanları ürünleri
 - `public/assets`: Ürün görselleri (SVG)
 
-## Ekran Görüntüleri
+## Görsel Oluşturma
 
-![Katalog Sayfası](./screenshots/catalog.png)
+Bu proje `tools/screenshot.cjs` ile sayfa ekran görüntüleri oluşturabilir. Bu araç, Chrome tabanlı bir tarayıcıyı Puppeteer üzerinden başlatır, sayfayı yükler ve ekran görüntüsünü `screenshots/` dizinine kaydeder.
 
-![Ürün Detay Sayfası](./screenshots/product-1.png)
+### Gereksinimler
+- `npm install` ile yüklenmiş `puppeteer`
+- Yerel geliştirme sunucusunun çalışıyor olması
+
+### Kullanım
+1. Geliştirme sunucusunu başlatın:
+
+```bash
+npm run dev
+```
+
+2. Başka bir terminalde ekran görüntüsü alın:
+
+```bash
+npm run screenshot:catalog
+npm run screenshot:product
+```
+
+3. `screenshots/` klasörü, `README` içinde referanslı dosyalar için yerel olarak oluşturulmuş görselleri barındırır.
+
+> Not: `screenshots/` dizini `.gitignore` içinde yer alır, bu nedenle PNG/SVG görüntüler repoya dahil edilmez.
